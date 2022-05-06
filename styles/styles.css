@@ -8,6 +8,11 @@
   text-decoration: none;
   color: grey;
 }
+h3 {
+  color: rgb(221, 211, 211);
+  font-size: 20px;
+  font-weight: 200;
+}
 header {
   color: rgb(172, 167, 167);
 }
@@ -15,7 +20,7 @@ ul {
   list-style: none;
 }
 .container{
-  max-width: 55%;
+  max-width: 65%;
   align-items: center;
   margin: auto;
 }
@@ -25,6 +30,11 @@ h1 {
 }
 .border {
   border: solid 8px white;
+}
+.important {
+  color: rgb(221, 211, 211);
+  font-weight: bold;
+  text-decoration: underline;
 }
 
 /* NAV */
@@ -80,6 +90,35 @@ nav li {
   width: 50%;
   height: 50px;
   border-radius: 10px;
+}
+
+/* MAIN 1st section*/
+.main1bg{
+  background: url(../images/assets/bg04.jpg);
+}
+.main1{
+  color: rgb(172, 167, 167);
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding: 40px 0;
+}
+.img-block{
+  max-width: 22.3%;
+}
+main h3{
+  margin: 20px 0 15px 0;
+}
+main p {
+  line-height: 1.5;
+}
+
+/* MAIN 2nd section*/
+.main2bg{
+  background: url(../images/assets/bg04.png);
+}
+.main2 {
+  color: black;
 }
 
 /* VISUAL TEST FOR POSITION THE BLOCKS WELL */
