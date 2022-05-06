@@ -19,6 +19,7 @@ header {
 ul {
   list-style: none;
 }
+
 .container{
   max-width: 65%;
   align-items: center;
@@ -38,6 +39,9 @@ h2{
   color: rgb(221, 211, 211);
   font-weight: bold;
   text-decoration: underline;
+}
+.bold {
+  font-weight: bold;
 }
 
 /* NAV */
@@ -132,6 +136,12 @@ main p {
   height: 380px;
   padding: 40px 30px;
 }
+.white-box p {
+  font-size: 15px;
+}
+.white-box em {
+  font-size: 23px;
+}
 .margin-img{
   margin: 30px 0;
 }
@@ -146,13 +156,13 @@ main p {
 }
 .third {
   display: flex;
-  justify-content: space-between;
+  /* justify-content: space-between; */
   padding: 18px 0;
   border-bottom: solid rgb(221, 211, 211) 1px;
 }
 .third2 {
   display: flex;
-  justify-content: space-between;
+  /* justify-content: space-between; */
   padding-top: 18px;
 }
 
