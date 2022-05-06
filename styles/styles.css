@@ -28,6 +28,9 @@ h1 {
   font-weight: 200;
   font-size: 40px;
 }
+h2{
+  font-weight: 300;
+}
 .border {
   border: solid 8px white;
 }
@@ -119,6 +122,38 @@ main p {
 }
 .main2 {
   color: black;
+  padding: 40px 0;
+  display: flex;
+  justify-content: space-between;
+}
+.white-box{
+  background-color: white;
+  width: 27%;
+  height: 380px;
+  padding: 40px 30px;
+}
+.margin-img{
+  margin: 30px 0;
+}
+.check-line{
+  border-bottom: solid rgb(221, 211, 211) 1px ;
+}
+.check{
+  padding: 18px 0;
+}
+.padR {
+ padding-right: 15px;
+}
+.third {
+  display: flex;
+  justify-content: space-between;
+  padding: 18px 0;
+  border-bottom: solid rgb(221, 211, 211) 1px;
+}
+.third2 {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 18px;
 }
 
 /* VISUAL TEST FOR POSITION THE BLOCKS WELL */
