@@ -9,19 +9,22 @@
   color: grey;
 }
 header {
-  color: grey;
+  color: rgb(172, 167, 167);
 }
 ul {
   list-style: none;
 }
 .container{
-  max-width: 65%;
+  max-width: 55%;
   align-items: center;
   margin: auto;
 }
 h1 {
   font-weight: 200;
   font-size: 40px;
+}
+.border {
+  border: solid 8px white;
 }
 
 /* NAV */
@@ -43,6 +46,40 @@ nav li {
   display: flex;
   justify-content: space-between;
   width: 75%;
+}
+
+/* 2ND PART OF THE HEADER */
+.header-part2 {
+  background: url(../images/assets/bg02.jpg);
+}
+.header-part2 img {
+  max-width: 100%;
+}
+.part2 {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap-reverse;
+}
+.part2 p {
+  font-size: 28px;
+}
+.leftpart {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  max-width: 450px;
+  /* width: 42%; */
+  height: 300px;
+}
+.btn {
+  background-color: rgb(218, 39, 7);
+  border: none;
+  color: white;
+  font-size: 28px;
+  width: 50%;
+  height: 50px;
+  border-radius: 10px;
 }
 
 /* VISUAL TEST FOR POSITION THE BLOCKS WELL */
