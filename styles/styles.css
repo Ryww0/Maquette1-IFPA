@@ -1,0 +1,51 @@
+/* GLOBAL */
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Yanone Kaffeesatz', sans-serif;
+}
+* a {
+  text-decoration: none;
+  color: grey;
+}
+header {
+  color: grey;
+}
+ul {
+  list-style: none;
+}
+.container{
+  max-width: 65%;
+  align-items: center;
+  margin: auto;
+}
+h1 {
+  font-weight: 200;
+  font-size: 40px;
+}
+
+/* NAV */
+nav {
+  background: url(../images/assets/bg01.jpg);
+}
+nav h1 {
+  color: white;
+}
+.nav{
+  display: flex;
+  justify-content: space-between;
+  height: 130px;
+}
+nav li {
+  font-size: 20px;
+}
+.navlist {
+  display: flex;
+  justify-content: space-between;
+  width: 75%;
+}
+
+/* VISUAL TEST FOR POSITION THE BLOCKS WELL */
+.test{
+  border: solid 1px red;
+}
