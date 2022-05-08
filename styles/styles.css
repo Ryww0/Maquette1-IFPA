@@ -166,6 +166,28 @@ main p {
   padding-top: 18px;
 }
 
+/* FOOTER */
+.footerbg {
+  background: url(../images/assets/bg03.jpg);
+}
+.links h3 {
+  color: black;
+}
+.links {
+  display: flex;
+}
+.left-footer {
+  width: 70%;
+  height: 250px;
+}
+.right-footer {
+  width: 30%;
+  height: 250px;
+}
+.flf { 
+  display: flex;
+}
+
 /* VISUAL TEST FOR POSITION THE BLOCKS WELL */
 .test{
   border: solid 1px red;
