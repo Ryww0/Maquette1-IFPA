@@ -75,18 +75,17 @@ nav li {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap-reverse;
-}
-.part2 p {
   font-size: 28px;
 }
 .leftpart {
   display: flex;
   flex-direction: column;
-  justify-content: space-around;
+  justify-content: space-evenly;
   align-items: center;
-  max-width: 450px;
+  max-width: 500px;
   /* width: 42%; */
   height: 300px;
+  color: white;
 }
 .btn {
   background-color: rgb(218, 39, 7);
@@ -97,6 +96,34 @@ nav li {
   height: 50px;
   border-radius: 10px;
 }
+
+@media screen and (max-width: 780px) {
+  .container {
+    max-width: 90%;
+  }
+
+  .part2 {
+    justify-content: center;
+    padding-top: 30px;
+    /* margin: auto; */
+    font-size: 22px;
+    text-align: center;
+  }
+
+  .part2 button {
+    width: 100%;
+  }
+}
+
+
+
+
+
+
+
+
+
+
 
 /* MAIN 1st section*/
 .main1bg{
@@ -118,6 +145,25 @@ main h3{
 main p {
   line-height: 1.5;
 }
+
+@media screen and (max-width: 780px) {
+  .main1 {
+    flex-wrap: wrap;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /* MAIN 2nd section*/
 .main2bg{
