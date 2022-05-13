@@ -201,6 +201,21 @@
     padding-top: 18px;
   }
 
+  /* --- MOBILE VERSION MAIN PART2 --- */
+  @media screen and (max-width: 780px) {
+    .main2 { 
+    flex-wrap: wrap;
+    flex-direction: column;
+    }
+    .white-box {
+      margin: auto;
+      width: 89.2%;
+      padding: 30px 20px;
+      margin-bottom: 25px;
+      height: auto;
+    }
+  }
+
 /* --- FOOTER --- */
   .footerbg {
     background: url(../images/assets/bg03.jpg);
