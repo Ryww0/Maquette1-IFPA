@@ -67,6 +67,37 @@
     justify-content: space-between;
     width: 75%;
   }
+  label, #toggle {
+    display: none;
+  }
+
+  /* --- MOBILE VERSION NAV --- */
+  @media screen and (max-width: 780px) {
+    .nav {
+      flex-direction: row-reverse;
+    }
+    h1 {
+      text-align: center;
+    }
+    label 
+    {
+        width: 30px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0 0;
+        font-size: 40px;
+        color: white;
+        cursor: pointer;
+        padding: 0;
+    }
+    .navlist {
+      display: none;
+    }
+    #toggle:checked + .navlist {
+      display: flex;
+  }
+  }
 
 /* --- 2ND PART OF THE HEADER --- */
   .header-part2 {
