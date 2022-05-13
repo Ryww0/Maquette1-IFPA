@@ -265,6 +265,25 @@
     color: rgb(111, 111, 111);
   }
 
+  /* --- MOBILE VERSION FOOTER --- */
+  @media screen and (max-width: 780px) {
+    .links {
+      flex-direction: column-reverse;
+      justify-content: flex-end;
+      flex-wrap: wrap;
+      /* height: 1000px; */
+    }
+    .right-footer {
+      width: 100%;
+    }
+    .left-footer {
+      width: 100%;
+    }
+    .flf {
+      flex-direction: column;
+    }
+  }
+
 /* --- VISUAL TEST FOR POSITION THE BLOCKS WELL --- */
   .test{
     border: solid 1px red;
