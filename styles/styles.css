@@ -168,6 +168,9 @@
     .part2 button {
       width: 100%;
     }
+    .leftpart {
+      height: 200px;
+    }
   }
 
 /* --- MAIN 1st section --- */
