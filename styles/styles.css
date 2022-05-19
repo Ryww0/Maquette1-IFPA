@@ -81,17 +81,18 @@
     }
     label 
     {
-        width: 50px;
-        height: 30px;
+        width: 40px;
+        height: 12px;
         display: flex;
         justify-content: center;
         align-items: center;
         margin: 0 0;
         font-size: 40px;
-        color: white;
+        color: rgb(132, 132, 132);
         cursor: pointer;
-        padding: 0;
-        border: solid 2px black;
+        padding: 12px 15px 18px 15px;
+        border: solid 1px rgb(132, 132, 132);
+        border-radius: 10px;
     }
     .navlist {
       display: none;
@@ -290,12 +291,12 @@
     justify-content: space-between;
   }
   .all-rights {
-    border-top: 2px solid rgba(139, 143, 145, 0.5);
+    border-top: 1px solid rgba(139, 143, 145, 0.3);
     height: 80px;
     align-items: center;
     text-align: center;
     padding-top: 30px;
-    color: rgb(111, 111, 111);
+    color: rgb(161, 161, 161);
   }
 
   /* --- MOBILE VERSION FOOTER --- */
