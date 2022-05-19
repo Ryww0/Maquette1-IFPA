@@ -144,12 +144,14 @@
 
   /* --- MOBILE VERSION 2ND PART HEADER --- */
   @media screen and (max-width: 780px) {
+    
+  
     .container {
       max-width: 90%;
     }
     .part2 {
       justify-content: center;
-      padding-top: 30px;
+      padding-top: 80px;
       /* margin: auto; */
       font-size: 22px;
       text-align: center;
