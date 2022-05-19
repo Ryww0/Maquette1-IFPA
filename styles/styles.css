@@ -259,7 +259,7 @@
   .links li {
     font-size: 15px;
     padding: 20px 0 10px 0;
-    border-bottom: 2px solid rgba(139, 143, 145, 0.5);
+    border-bottom: 1px solid rgba(139, 143, 145, 0.4);
     width: 200px;
     text-decoration: underline;
     color: rgb(111, 111, 111);
@@ -315,9 +315,25 @@
     .flf {
       flex-direction: column;
     }
+    .flf li {
+      width: 100%;
+    }
+    .left-footer {
+      height: 800px;
+    }
+    .all-rights {
+      height: auto;
+      padding-bottom: 20px;
+    }
+    .nope {
+      border-bottom: 0px !important;
+    }
   }
 
 /* --- VISUAL TEST FOR POSITION THE BLOCKS WELL --- */
   .test{
     border: solid 1px red;
+  }
+  .test2{
+    border: solid 1px blue;
   }
