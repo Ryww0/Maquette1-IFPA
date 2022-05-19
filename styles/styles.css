@@ -51,6 +51,7 @@
 /* --- NAV --- */
   nav {
     background: url(../images/assets/bg01.jpg);
+    box-shadow: 0 6px 23px black;
   }
   nav h1 {
     color: white;
