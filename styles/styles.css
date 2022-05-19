@@ -241,6 +241,7 @@
     width: 27%;
     height: 380px;
     padding: 40px 30px;
+    box-shadow: 2px 2px 7px rgba(0, 0, 0, 0.381);
   }
   .white-box p {
     font-size: 15px;
