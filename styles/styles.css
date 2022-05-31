@@ -15,6 +15,7 @@
 /* --- parametrage global --- */
 header {
   color: rgb(172, 167, 167);
+  background: url(../images/assets/bg01.jpg);
 }
 ul {
   list-style: none; /* supprimer les puces des listes */
@@ -52,8 +53,8 @@ h3 {
 /* --- NAV --- */
 /* ================================================================== */
 nav {
-  background: url(../images/assets/bg01.jpg);
-  box-shadow: 0 6px 23px black;
+  background: url(../images/assets/bg01.jpg) !important;
+  box-shadow: 0 6px 30px black;
 }
 nav h1 {
   color: white;
@@ -130,9 +131,6 @@ label,
 
 /* --- 2ND PART OF THE HEADER --- */
 /* ================================================================== */
-.header-part2 {
-  background: url(../images/assets/bg01.jpg);
-}
 .header-part2 img {
   max-width: 100%;
 }
@@ -173,6 +171,9 @@ label,
 @media screen and (max-width: 780px) {
   .container {
     max-width: 90%;
+  }
+  .part2 img {
+    max-width: 100% !important;
   }
   .part2 {
     justify-content: center;
